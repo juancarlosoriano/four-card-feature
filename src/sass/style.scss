@@ -1,6 +1,9 @@
 @import "sanitize.css";
 @import "globals";
+@import "header";
+@import "layouts";
+@import "feature-card";
 
-h1 {
-  color: red;
+body {
+  font-family: var(--primary-font-family);
 }
