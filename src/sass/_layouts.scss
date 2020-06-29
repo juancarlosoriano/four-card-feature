@@ -23,3 +23,18 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .l-diamond {
+    grid-template-areas:
+      "cyan"
+      "red"
+      "orange"
+      "blue";
+    .l-diamond__panel {
+      margin: 0 auto;
+      width: 86vw;
+      max-width: 400px;
+    }
+  }
+}
