@@ -1,0 +1,25 @@
+.l-diamond {
+  display: grid;
+  grid-template-areas:
+    ". red ."
+    "cyan red blue"
+    "cyan orange blue"
+    ". orange .";
+  grid-gap: 20px;
+  margin: 0 auto 50px;
+  max-width: 1000px;
+  .l-diamond__panel {
+    &.l-diamond__panel--red {
+      grid-area: red;
+    }
+    &.l-diamond__panel--blue {
+      grid-area: blue;
+    }
+    &.l-diamond__panel--cyan {
+      grid-area: cyan;
+    }
+    &.l-diamond__panel--orange {
+      grid-area: orange;
+    }
+  }
+}

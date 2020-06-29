@@ -1,0 +1,40 @@
+.c-feature-card {
+  border-top: 4px solid;
+  border-radius: 5px;
+  box-shadow: 2px 30px 22px 3px rgba(214, 225, 237, 1);
+  display: flex;
+  height: 240px;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  max-width: 375px;
+  padding: 30px;
+  &.c-feature-card--supervisor {
+    border-top-color: var(--cyan);
+  }
+  &.c-feature-card--team-builder {
+    border-top-color: var(--red);
+  }
+  &.c-feature-card--karma {
+    border-top-color: var(--orange);
+  }
+  &.c-feature-card--calculator {
+    border-top-color: var(--blue);
+  }
+  .c-feature-card__title {
+    color: var(--lighter-dark-text);
+    font-size: 20px;
+    font-weight: var(--thick-font-weight);
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .c-feature-card__desc {
+    color: var(--grayish-blue);
+    margin-block-start: 0.8em;
+    margin-block-end: 2.2em;
+  }
+  .c-feature-card__icon {
+    flex-grow: 0;
+    align-self: flex-end;
+    width: 50px;
+  }
+}
