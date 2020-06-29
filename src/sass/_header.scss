@@ -1,0 +1,20 @@
+.c-header {
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 520px;
+  .c-header__main-heading {
+    font-size: 30px;
+    font-weight: var(--thick-font-weight);
+    margin-block-start: 0;
+    color: #444;
+  }
+  .c-header__subheading {
+    font-size: 30px;
+    font-weight: var(--light-font-weight);
+    color: #555;
+  }
+  .c-header__desc {
+    color: var(--grayish-blue);
+  }
+}
