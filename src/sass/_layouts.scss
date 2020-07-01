@@ -1,25 +1,25 @@
 .l-diamond {
   display: grid;
   grid-template-areas:
-    ". red ."
-    "cyan red blue"
-    "cyan orange blue"
-    ". orange .";
+    ". _red ."
+    "_cyan _red _blue"
+    "_cyan _orange _blue"
+    ". _orange .";
   grid-gap: 20px;
   margin: 0 auto 50px;
   max-width: 1000px;
   .l-diamond__panel {
     &.l-diamond__panel--red {
-      grid-area: red;
+      grid-area: _red;
     }
     &.l-diamond__panel--blue {
-      grid-area: blue;
+      grid-area: _blue;
     }
     &.l-diamond__panel--cyan {
-      grid-area: cyan;
+      grid-area: _cyan;
     }
     &.l-diamond__panel--orange {
-      grid-area: orange;
+      grid-area: _orange;
     }
   }
 }
@@ -27,10 +27,10 @@
 @media screen and (max-width: 1000px) {
   .l-diamond {
     grid-template-areas:
-      "cyan"
-      "red"
-      "orange"
-      "blue";
+      "_cyan"
+      "_red"
+      "_orange"
+      "_blue";
     .l-diamond__panel {
       margin: 0 auto;
       width: 86vw;
