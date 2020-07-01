@@ -24,5 +24,6 @@
     "node": "^14.4.0",
     "robots.txt": "^1.1.0"
   },
-  "description": ""
+  "description": "",
+  "homepage": "https://juancarlosoriano.github.io/four-card-feature/"
 }
