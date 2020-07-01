@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"sanitize.css":"caD7"}],"mpVp":[function(require,module,exports) {
 "use strict";require("/sass/style.scss"),console.log("hello world"),"serviceWorker"in navigator&&navigator.serviceWorker.register("serviceWorker.js").then(function(){return console.log("Service Worker Registered.")});
 },{"/sass/style.scss":"Tk75","/Users/juancarlosoriano1/my_workspace/Web Development/FrontEndMentor/four-card-feature challenge/four-card-feature/src/serviceWorker.js":[["serviceWorker.js","oXuJ"],"serviceWorker.js.map","oXuJ"]}]},{},["mpVp"], null)
-//# sourceMappingURL=script.f8265442.js.map
+//# sourceMappingURL=script.1a4b6417.js.map
